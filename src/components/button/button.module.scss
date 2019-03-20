@@ -1,0 +1,12 @@
+.button {
+  min-width: 100px;
+  padding: 15px 25px;
+  background-color: rgb(217, 217, 217);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  border: 0;
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,20 @@
+.aboutBrandName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleWrapper {
+  position: relative;
+}
+.cornerBorder {
+  position: absolute;
+  left: -5vmin;
+  top: -4vmin;
+}
+.step {
+  color: purple;
+}
+.description {
+  font-size: calc(8px + 0.8vmin);
+}

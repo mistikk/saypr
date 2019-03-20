@@ -1,0 +1,34 @@
+.inputWrapper {
+  margin: 7vh;
+  position: relative;
+}
+.input {
+  padding: 15px;
+  width: 25vw;
+  min-width: 250px;
+  &:focus{
+    outline: none;
+  }
+}
+.inputRounded {
+  border-radius: 50px;
+  border: 1px solid #EBEBEB;
+  padding: 15px;
+  width: 40vw;
+  min-width: 250px;
+  &:focus{
+    outline: none;
+  }
+}
+.rightIcon {
+  margin-left: -30px;
+  color: #767676;
+  cursor: pointer;
+}
+.lengthText {
+  position: absolute;
+  font-size: 10px;
+  bottom: -20px;
+  right: 5px;
+  color: purple;
+}

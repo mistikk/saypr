@@ -1,0 +1,33 @@
+.header {
+  background-color: #353535;
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+}
+.headerBody {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.headerButton {
+  width: 12vw;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: gray;
+  font-size: calc(8px + 0.8vmin);
+}
+.headerFirstButton{
+  background-color: yellow;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backIcon{
+  font-size: calc(15px + 2vmin);
+}

@@ -1,0 +1,21 @@
+.textAreaWrapper {
+  margin: 7vh;
+  position: relative;
+}
+.textArea {
+  padding: 15px;
+  width: 40vw;
+  min-width: 250px;
+  font-size:15px;
+  line-height: 20px;
+  &:focus {
+    outline: none;
+  }
+}
+.lengthText {
+  position: absolute;
+  font-size: 10px;
+  bottom: -20px;
+  right: 5px;
+  color: purple;
+}
